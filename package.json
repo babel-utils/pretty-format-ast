@@ -1,6 +1,6 @@
 {
   "name": "pretty-format-ast",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Pretty format plugin to print ASTs prettier",
   "main": "index.js",
   "repository": "babel-utils/pretty-format-ast",
