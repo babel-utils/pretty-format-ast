@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loc zeroes 1`] = `"Node \\"Test\\" (0:0, 0:0)"`;
+
+exports[`print node 1`] = `
+"Node \\"Test\\" (1:1, 1:1)
+  a: true
+  b: \\"hi\\"
+  c: Object {
+    \\"x\\": \\"hi\\",
+  }
+  d: Array [
+    1,
+  ]"
+`;
+
+exports[`print path 1`] = `
+"Path \\"FunctionDeclaration\\" (1:1, 1:1)
+  id: Node \\"Identifier\\" (1:1, 1:1)
+    name: \\"foo\\""
+`;
+
+exports[`print real ast 1`] = `
+"Node \\"FunctionDeclaration\\" (1:0, 1:31)
+  __clone: [Function __clone]
+  async: false
+  body: Node \\"BlockStatement\\" (1:29, 1:31)
+    body: Array []
+    directives: Array []
+  expression: false
+  generator: false
+  id: Node \\"Identifier\\" (1:9, 1:10)
+    name: \\"a\\"
+  params: Array [
+    Node \\"Identifier\\" (1:11, 1:18)
+      name: \\"b\\"
+      typeAnnotation: Node \\"TypeAnnotation\\" (1:12, 1:18)
+          typeAnnotation: Node \\"StringLiteralTypeAnnotation\\" (1:14, 1:18)
+              extra: Object {
+                  \\"raw\\": \\"\\\\\\"hi\\\\\\"\\",
+                  \\"rawValue\\": \\"hi\\",
+                }
+              value: \\"hi\\",
+    Node \\"Identifier\\" (1:20, 1:21)
+      name: \\"c\\",
+    Node \\"RestElement\\" (1:23, 1:27)
+      argument: Node \\"Identifier\\" (1:26, 1:27)
+          name: \\"d\\",
+  ]"
+`;

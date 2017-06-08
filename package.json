@@ -1,0 +1,18 @@
+{
+  "name": "pretty-format-ast",
+  "version": "0.0.0",
+  "description": "Pretty format plugin to print ASTs prettier",
+  "main": "index.js",
+  "repository": "babel-utils/pretty-format-ast",
+  "author": "James Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "files": [],
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.47.0",
+    "jest": "^20.0.4",
+    "pretty-format": "^20.0.3"
+  }
+}
